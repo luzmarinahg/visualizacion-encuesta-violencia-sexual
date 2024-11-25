@@ -1,0 +1,2860 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"3393_etiq\",\"ministerio interior\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.128.751.0 (24.04)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "es-MX",
+    "cultures": [
+      {
+        "name": "es-MX",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "es-ES",
+    "tables": [
+      {
+        "name": "3393_etiq",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          }
+        ],
+        "columns": [
+          {
+            "name": "ESTUDIO Código del estudio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7c1c4518-1eb4-4a6c-a79e-ee0b4a39954d",
+            "sourceColumn": "ESTUDIO Código del estudio",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "REGISTRO Número de registro",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "789ff9cf-f023-4fa7-95a2-7db66d7e25fd",
+            "sourceColumn": "REGISTRO Número de registro",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Cuestionario",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3cb882f0-108c-4d2f-9120-b5480f5bed1e",
+            "sourceColumn": "Cuestionario",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MUN Municipio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d0bdf4ef-996b-4924-9147-74718944af9b",
+            "sourceColumn": "MUN Municipio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CCAA Comunidad autónoma",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b55553db-2bd1-44a9-995d-100b3b114aa2",
+            "sourceColumn": "CCAA Comunidad autónoma",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PROV Provincia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2a715ffc-fee7-435d-9964-745259114a27",
+            "sourceColumn": "PROV Provincia",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "TAMUNI Tamaño de municipio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5446fc11-f569-4791-9d7e-228a3ad7ddc0",
+            "sourceColumn": "TAMUNI Tamaño de municipio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ENTREV Entrevistador",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "efa1f36b-452f-490c-bfb3-59b62230d9fc",
+            "sourceColumn": "ENTREV Entrevistador",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "TIPO_TEL Tipo de teléfono",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "606afeca-c076-482e-aced-d305fc755223",
+            "sourceColumn": "TIPO_TEL Tipo de teléfono",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CAPITAL Capital",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "66ebc99b-2ed3-4a08-aa56-19fb587d90d8",
+            "sourceColumn": "CAPITAL Capital",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sexo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "26c39073-7ce3-4c67-9c39-0a439725ddde",
+            "sourceColumn": "Sexo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "EDAD Edad de la persona entrevistada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6430d528-d498-49e3-8cdd-7950e0d2ffdb",
+            "sourceColumn": "EDAD Edad de la persona entrevistada",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "P0 Nacionalidad de la persona entrevistada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "042a140d-7c0c-438a-ad6a-e05f181a6e7a",
+            "sourceColumn": "P0 Nacionalidad de la persona entrevistada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_1 Por su edad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "32b576a9-4838-41cc-8c73-486bbc6e0a12",
+            "sourceColumn": "P1_1 Por su edad",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_2 Por su sexo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "07bc1570-874d-4fce-994f-3b8b7b6e4f3e",
+            "sourceColumn": "P1_2 Por su sexo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_3 Por su etnia o país de origen",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b894c61e-a3dc-4015-82ff-4f6bde027b13",
+            "sourceColumn": "P1_3 Por su etnia o país de origen",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_4 Por su nivel de estudios o clase social",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d672549f-9240-4af1-9e9a-3d4773a90979",
+            "sourceColumn": "P1_4 Por su nivel de estudios o clase social",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_5 Por su aspecto físico",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a28437b5-52aa-4113-a6e7-638ef1b1f491",
+            "sourceColumn": "P1_5 Por su aspecto físico",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_6 Por su opción u orientación sexual",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "840e7bf2-e6b5-42c0-a83f-bc10fce4abe9",
+            "sourceColumn": "P1_6 Por su opción u orientación sexual",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_7 Por padecer alguna discapacidad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6bd25c53-ccfb-4f4f-85ec-b5f324f93a79",
+            "sourceColumn": "P1_7 Por padecer alguna discapacidad",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_8 Por padecer alguna enfermedad crónica",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7f25ec1c-51a5-4471-8323-ae5c6a811fd6",
+            "sourceColumn": "P1_8 Por padecer alguna enfermedad crónica",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_9 Por sus creencias religiosas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2551d9b8-ffeb-40c3-9330-1df98fc94435",
+            "sourceColumn": "P1_9 Por sus creencias religiosas",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_10 Por su identidad de género",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4b959aec-0b5a-4c9f-ba53-40230b746836",
+            "sourceColumn": "P1_10 Por su identidad de género",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_11 Por su lugar, barrio o zona de residencia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "702c3b25-bf0c-4450-9731-48f512a1f7f1",
+            "sourceColumn": "P1_11 Por su lugar, barrio o zona de residencia",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_12 Por sus ideas, por su ideología política",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "45f7e48e-4fcb-4873-a8af-1fe51f37205f",
+            "sourceColumn": "P1_12 Por sus ideas, por su ideología política",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_13 Por su lengua (cooficial)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c1a5962d-ac34-48b8-8357-7004d7f1f9f9",
+            "sourceColumn": "P1_13 Por su lengua (cooficial)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_96 Otra causa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4d936c78-1c76-478a-935d-a5665f29d9af",
+            "sourceColumn": "P1_96 Otra causa",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_97 Por ninguna",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2004d24d-f2ef-4d96-8189-3c7d3aca8f04",
+            "sourceColumn": "P1_97 Por ninguna",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_98 N.S.",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "108ab424-f07b-49e9-b776-a92d2d2e42c5",
+            "sourceColumn": "P1_98 N.S.",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P1_99 N.C.",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9dadcfe4-f3ae-42dc-a1bb-3b23900ea811",
+            "sourceColumn": "P1_99 N.C.",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P2_1 Hacer comentarios ofensivos o embarazosos en Internet o redes sociales sobre alguna persona",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "21251850-9472-4d62-9cb8-e41f4c7be3af",
+            "sourceColumn": "P2_1 Hacer comentarios ofensivos o embarazosos en Internet o redes sociales sobre alguna persona",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P2_2 Enviar correos electrónicos o mensajes de texto con contenido sexual no deseado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4bbc9bab-b3f1-4bbb-a03f-403435f18eb3",
+            "sourceColumn": "P2_2 Enviar correos electrónicos o mensajes de texto con contenido sexual no deseado",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P2_3 Compartir fotografías o vídeos de carácter sexual a través de redes sociales (Facebook, WhatsApp, Instagram, etc.) sin el consentimiento de las personas que aparecen en la foto o vídeo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ae947296-9813-43cf-997c-61068e6f54a7",
+            "sourceColumn": "P2_3 Compartir fotografías o vídeos de carácter sexual a través de redes sociales (Facebook, WhatsApp, Instagram, etc.) sin el consentimiento de las personas que aparecen en la foto o vídeo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P2_4 Presionar a una persona para que envíe fotos suyas desnuda",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b8adda40-5479-4274-9aa6-7a0f28114e9d",
+            "sourceColumn": "P2_4 Presionar a una persona para que envíe fotos suyas desnuda",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P2_5 Chantajear a una persona con difundir fotografías o vídeos suyos de carácter sexual",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7a5ed145-025d-44a1-9012-66a3cffd1c4c",
+            "sourceColumn": "P2_5 Chantajear a una persona con difundir fotografías o vídeos suyos de carácter sexual",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P3 Percepción de la extensión del acoso sexual en el ámbito digital en España",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1b0e0548-9e81-4010-9110-112a5e86176e",
+            "sourceColumn": "P3 Percepción de la extensión del acoso sexual en el ámbito digital en España",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P4 Percepción de las desigualdades entre hombres y mujeres en España",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aa3c325b-608e-4ad7-bd71-d6865e2d2379",
+            "sortByColumn": "P4 Ordenada",
+            "sourceColumn": "P4 Percepción de las desigualdades entre hombres y mujeres en España",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P5 Percepción retrospectiva (10 años) de las desigualdades entre hombres y mujeres en España",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c6314fc2-df92-4888-8448-ddb6ec1629f2",
+            "sourceColumn": "P5 Percepción retrospectiva (10 años) de las desigualdades entre hombres y mujeres en España",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P6_1 Obligar a la pareja a mantener relaciones sexuales no deseadas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b1ff3114-cb12-4fa4-9851-0903d189cc5d",
+            "sourceColumn": "P6_1 Obligar a la pareja a mantener relaciones sexuales no deseadas",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P6_2 Hacer comentarios y sugerencias de tipo sexual no deseados a una mujer",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9ce2e408-0cc5-45a5-b3b3-61c1b422057a",
+            "sourceColumn": "P6_2 Hacer comentarios y sugerencias de tipo sexual no deseados a una mujer",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P6_3 Besar a una mujer contra su voluntad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "599b7300-39be-42c0-94d8-6f393bf60f19",
+            "sourceColumn": "P6_3 Besar a una mujer contra su voluntad",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P6_4 Tocar a una mujer de forma no deseada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0e96f5b7-9f3b-44ba-871e-ae6e0049e4a3",
+            "sourceColumn": "P6_4 Tocar a una mujer de forma no deseada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P6_5 Dar de manera deliberada alcohol o drogas a una mujer, sin que ella lo sepa, para poder mantener relaciones sexuales con ella",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0e0cf788-72a5-4dcb-a2d7-096418a8210f",
+            "sourceColumn": "P6_5 Dar de manera deliberada alcohol o drogas a una mujer, sin que ella lo sepa, para poder mantener relaciones sexuales con ella",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P6_6 Pagar a una mujer por mantener relaciones sexuales",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "04651da7-484e-4487-b01b-c1e767392420",
+            "sourceColumn": "P6_6 Pagar a una mujer por mantener relaciones sexuales",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P7 Percepción sobre la extensión de las agresiones sexuales en la actualidad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e6a1a875-ee62-4df1-b3b3-b55ddd203702",
+            "sourceColumn": "P7 Percepción sobre la extensión de las agresiones sexuales en la actualidad",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P8 Motivo principal por el que algunos hombres agreden sexualmente a las mujeres",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4476240c-4d8c-4395-97df-bddf72850326",
+            "sourceColumn": "P8 Motivo principal por el que algunos hombres agreden sexualmente a las mujeres",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P8A Segundo motivo por el que algunos hombres agreden sexualmente a las mujeres",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c40ada93-1479-4c2e-96e5-30534e0ac562",
+            "sourceColumn": "P8A Segundo motivo por el que algunos hombres agreden sexualmente a las mujeres",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P9 Lugar principal de las agresiones sexuales contra las mujeres",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "69e8a9e7-6a44-4f4b-b4b1-d1e8e8caab6f",
+            "sourceColumn": "P9 Lugar principal de las agresiones sexuales contra las mujeres",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P9A Segundo lugar donde se producen las agresiones sexuales contra las mujeres",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5e03e26f-a59a-441d-9a6c-14cadc0bac44",
+            "sourceColumn": "P9A Segundo lugar donde se producen las agresiones sexuales contra las mujeres",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P10_1 Chistes o bromas insultantes sobre la mujer en general",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ec29c6a9-09df-4d25-afd6-de233f065977",
+            "sourceColumn": "P10_1 Chistes o bromas insultantes sobre la mujer en general",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P10_2 Chistes o bromas insultantes sobre una trabajadora",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "15b6c6b0-3d28-4a4e-ae89-b2a7913a50ed",
+            "sourceColumn": "P10_2 Chistes o bromas insultantes sobre una trabajadora",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P10_3 Comentarios sexuales sobre una trabajadora (sobre su cuerpo, su forma de vestir o su sexualidad)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8ff75031-dbe6-4d3a-a8a3-2535b220447b",
+            "sourceColumn": "P10_3 Comentarios sexuales sobre una trabajadora (sobre su cuerpo, su forma de vestir o su sexualidad)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P10_4 Piropos ofensivos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fc30dd35-427f-42db-bb55-ff2841c07924",
+            "sourceColumn": "P10_4 Piropos ofensivos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P10_5 Insinuaciones o indirectas sexuales",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f2afee61-69fc-40b7-904b-a677c39495d5",
+            "sourceColumn": "P10_5 Insinuaciones o indirectas sexuales",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P10_6 Preguntas sobre cuestiones privadas de su vida sexual",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "17aed3ac-713d-4b5a-b2ec-88600607a1df",
+            "sourceColumn": "P10_6 Preguntas sobre cuestiones privadas de su vida sexual",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P10_7 Gestos y miradas obscenas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ccca6017-b6f4-46c0-b2d6-9ded56eca050",
+            "sourceColumn": "P10_7 Gestos y miradas obscenas",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P10_8 Pedir reiteradamente relaciones sexuales sin presiones ni amenazas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ba4035f7-564c-4aff-8a1c-94d6edc659e5",
+            "sourceColumn": "P10_8 Pedir reiteradamente relaciones sexuales sin presiones ni amenazas",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P10_9 Tocamientos, pellizcos, acorralamientos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "49788a42-9db3-4b3d-ae21-cee2ba93ed16",
+            "sourceColumn": "P10_9 Tocamientos, pellizcos, acorralamientos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P10_10 Abrazos o besos no deseados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "44ea87ba-4a3b-4e5d-87e2-a8ef221386de",
+            "sourceColumn": "P10_10 Abrazos o besos no deseados",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P10_11 Presiones para obtener favores sexuales a cambio de mejoras laborales o bajo amenaza de despido",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6452758a-c119-4f97-97d7-3e684b3fc69a",
+            "sourceColumn": "P10_11 Presiones para obtener favores sexuales a cambio de mejoras laborales o bajo amenaza de despido",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P11 Frecuencia con que las mujeres denuncian las agresiones sexuales",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7c5f1eaa-a8e3-4ba4-9a59-5caecee3df40",
+            "sortByColumn": "P11 ordenada",
+            "sourceColumn": "P11 Frecuencia con que las mujeres denuncian las agresiones sexuales",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P11A Momento en el el que las mujeres que sufren una agresión sexual lo denuncian",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bb71a335-c520-4355-90f6-5c818e08482b",
+            "sortByColumn": "P11A ordenada",
+            "sourceColumn": "P11A Momento en el el que las mujeres que sufren una agresión sexual lo denuncian",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P12 Razón principal por la que las mujeres que han sufrido agresión sexual no denuncian",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b92fd8e0-70a1-4e19-9575-61ae6cfba219",
+            "sourceColumn": "P12 Razón principal por la que las mujeres que han sufrido agresión sexual no denuncian",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P12A Segunda razón por la que las mujeres que han sufrido agresión sexual no denuncian",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ada40b70-025b-40ce-bf49-7799f0f3440d",
+            "sourceColumn": "P12A Segunda razón por la que las mujeres que han sufrido agresión sexual no denuncian",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P13_1 Su círculo familiar o de amistades",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "802a030d-ba86-490a-ace5-23183e85ad0c",
+            "sourceColumn": "P13_1 Su círculo familiar o de amistades",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P13_2 En la zona donde vive, en su vecindario",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fb61bb24-fcf6-4eab-85bd-4f5a51053a5e",
+            "sourceColumn": "P13_2 En la zona donde vive, en su vecindario",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P13_3 En su lugar de trabajo y/o estudio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4bbb1402-b086-443f-8f7e-b89357e7455a",
+            "sourceColumn": "P13_3 En su lugar de trabajo y/o estudio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P13_4",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "308d0136-00d9-43e2-8502-0aa59999f1ae",
+            "sourceColumn": "P13_4",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SITCONV Situación de convivencia de la persona entrevistada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f0f8bfb8-2fa8-4d43-9f68-febce343e5bc",
+            "sourceColumn": "SITCONV Situación de convivencia de la persona entrevistada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ECIVIL Estado civil de la persona entrevistada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f9bd7569-5bff-4e3d-be6f-da31cd2395c6",
+            "sourceColumn": "ECIVIL Estado civil de la persona entrevistada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ESCIDEOL Escala de autoubicación ideológica (1-10)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5193c128-2062-4884-8ec8-0c35f998ce5b",
+            "sourceColumn": "ESCIDEOL Escala de autoubicación ideológica (1-10)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PARTICIPACIONG Participación electoral en las elecciones generales de noviembre de 2019",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b4361fb8-4f4c-4860-bcbe-a6f35a652f1a",
+            "sourceColumn": "PARTICIPACIONG Participación electoral en las elecciones generales de noviembre de 2019",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "RECUVOTOG Recuerdo de voto en las elecciones generales de noviembre de 2019 de los votantes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "00f2b125-fb0d-4036-a3f2-18eb8cebbf28",
+            "sourceColumn": "RECUVOTOG Recuerdo de voto en las elecciones generales de noviembre de 2019 de los votantes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Voto",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4643f5df-b3cf-4389-a483-a7a76d27348d",
+            "sortByColumn": "Voto ordenado",
+            "sourceColumn": "Voto",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "RECUERDO Recuerdo de voto en las elecciones generales de noviembre de 2019",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6d45c34a-dd3f-427c-b709-c14db2a67f01",
+            "sourceColumn": "RECUERDO Recuerdo de voto en las elecciones generales de noviembre de 2019",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ESCUELA Escolarización de la persona entrevistada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cd776d07-618e-4da3-8127-3dd9ce3bdab4",
+            "sourceColumn": "ESCUELA Escolarización de la persona entrevistada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "NIVELESTENTREV Nivel de estudios alcanzado por la persona entrevistada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5b7699d3-7689-4759-be27-78dfbc81a35d",
+            "sourceColumn": "NIVELESTENTREV Nivel de estudios alcanzado por la persona entrevistada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ESTUDIOS Estudios de la persona entrevistada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "55044334-872a-473f-b19b-e06d9eacbffc",
+            "sourceColumn": "ESTUDIOS Estudios de la persona entrevistada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "RELIGION Religiosidad de la persona entrevistada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "98cdd1d5-570f-4eaa-bf30-970a0bfd42b9",
+            "sourceColumn": "RELIGION Religiosidad de la persona entrevistada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PRACTICARELIG6 Frecuencia de asistencia a oficios religiosos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "82190ddb-3aa0-4eff-b874-507144a7c32a",
+            "sourceColumn": "PRACTICARELIG6 Frecuencia de asistencia a oficios religiosos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SITLAB Situación laboral de la persona entrevistada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2f6a6864-7bd9-46df-81fb-67be127d65b2",
+            "sourceColumn": "SITLAB Situación laboral de la persona entrevistada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "RELALAB Situación profesional de la persona entrevistada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "72dad097-a4d6-492c-bb96-a0a8fc557b1f",
+            "sourceColumn": "RELALAB Situación profesional de la persona entrevistada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CNO11 Ocupación de la persona entrevistada (CNO11)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5496b15c-3f6d-4213-919e-f4bea9ae9797",
+            "sourceColumn": "CNO11 Ocupación de la persona entrevistada (CNO11)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CNO11R Población activa e inactiva",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "52e241f8-865d-45c6-b4cd-299a67a9b47e",
+            "sourceColumn": "CNO11R Población activa e inactiva",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "INGRESHOG Nivel de ingresos en el hogar",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fd371868-37ba-40f3-9d53-1c7b14613ebb",
+            "sortByColumn": "ingresos ordenado",
+            "sourceColumn": "INGRESHOG Nivel de ingresos en el hogar",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CLASESOCIAL Clase social subjetiva de la persona entrevistada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7c9c89f6-a451-4093-8a83-f792bd675b33",
+            "sourceColumn": "CLASESOCIAL Clase social subjetiva de la persona entrevistada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CLASESUB Identificación subjetiva de clase",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "efd6bcb3-89a3-4d44-a98c-b90e44ff27a4",
+            "sourceColumn": "CLASESUB Identificación subjetiva de clase",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SINCERIDAD Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "da1814c5-47ca-42fb-8aee-b1ed9a082843",
+            "sourceColumn": "SINCERIDAD Grado de sinceridad de la persona entrevistada según el/la entrevistador/a",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PESO Ponderación",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "e73c6551-945e-4824-9fd3-d20955ad5243",
+            "sourceColumn": "PESO Ponderación",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "IA_I501 Dificultad de acceso al edificio, casa, urbanización, etc",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0aaf575a-ecba-4037-8ad8-65743964b9a4",
+            "sourceColumn": "IA_I501 Dificultad de acceso al edificio, casa, urbanización, etc",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I502 Viviendas en las que no hay nadie",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "924a3798-b18a-4e66-928a-4e21a3b0cc89",
+            "sourceColumn": "IA_I502 Viviendas en las que no hay nadie",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I503 Viviendas en las que se niegan a recibir ninguna explicación",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "20670f5d-a613-4d81-ad99-9b1bea0c21f9",
+            "sourceColumn": "IA_I503 Viviendas en las que se niegan a recibir ninguna explicación",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I504 Negativas de hombres a realizar la entrevista",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "80207425-0dd3-40b4-87a7-f49250d3ac74",
+            "sourceColumn": "IA_I504 Negativas de hombres a realizar la entrevista",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I505 Negativas de mujeres a realizar la entrevista",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "41c35933-7ae0-4ea5-b4ab-13ced9fe93cb",
+            "sourceColumn": "IA_I505 Negativas de mujeres a realizar la entrevista",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I506 Contactos fallidos por no cumplir cuotas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a15105d7-8bf5-4715-a2d2-4748f85a9e48",
+            "sourceColumn": "IA_I506 Contactos fallidos por no cumplir cuotas",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I507 Contactos fallidos por no ser una vivienda (oficinas, consultas medicas, etc.)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f5218819-951b-4792-b741-159f1c8360ff",
+            "sourceColumn": "IA_I507 Contactos fallidos por no ser una vivienda (oficinas, consultas medicas, etc.)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I508 Viviendas de población extranjera",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "60370fec-d192-4154-a4dd-06f6c1510e00",
+            "sourceColumn": "IA_I508 Viviendas de población extranjera",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I509 01.  No quiere colaborar",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "340cb002-0c32-447e-9c66-822a841baf60",
+            "sourceColumn": "IA_I509 01.  No quiere colaborar",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I510 02.  Falta de tiempo. Está muy ocupado/a",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "35e00e52-87da-40fd-b110-4d1374043646",
+            "sourceColumn": "IA_I510 02.  Falta de tiempo. Está muy ocupado/a",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I511 03.  Falta de interés por hacer una encuesta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a35e5a05-f080-472e-b8eb-bc9a828e0709",
+            "sourceColumn": "IA_I511 03.  Falta de interés por hacer una encuesta",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I512 04.  Desconfianza hacia las encuestas.",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "11cd4a50-b3bd-4576-b1c3-5c4048324b50",
+            "sourceColumn": "IA_I512 04.  Desconfianza hacia las encuestas.",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I513 05.  Desconfianza hacia el CIS",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2f977f09-c361-4af1-87bf-c86c7a120912",
+            "sourceColumn": "IA_I513 05.  Desconfianza hacia el CIS",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I514 06.  Rehúsa porque su pareja/familia/hogar no quiere.",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "07f663da-7704-43f2-8d40-cff9e6229248",
+            "sourceColumn": "IA_I514 06.  Rehúsa porque su pareja/familia/hogar no quiere.",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I515 07.  Lo considera una pérdida de tiempo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cb4eb330-5884-4c46-8945-612141ad98ff",
+            "sourceColumn": "IA_I515 07.  Lo considera una pérdida de tiempo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I516 08.  No sabe lo suficiente/nada del tema, demasiado difícil",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9c9bb1ce-3e0b-41f2-8a4b-e6d3063fbf8c",
+            "sourceColumn": "IA_I516 08.  No sabe lo suficiente/nada del tema, demasiado difícil",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I517 09.  El tema no le interesa.",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5fda8ba8-b785-4342-8fec-209e91a8cd9d",
+            "sourceColumn": "IA_I517 09.  El tema no le interesa.",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I518 10.  Resulta demasiada larga.",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0ea5a410-3cf5-4e2f-a2b4-9819b058f169",
+            "sourceColumn": "IA_I518 10.  Resulta demasiada larga.",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I519 11.  No le gusta el ordenador.",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c03acfd3-a710-4c81-a2a3-7524624ebf50",
+            "sourceColumn": "IA_I519 11.  No le gusta el ordenador.",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I520 96. Otras",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "711d7afe-b3d4-4f1c-9480-231397fd2052",
+            "sourceColumn": "IA_I520 96. Otras",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I521 99. No contesta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8579510a-419e-4788-b212-21b662921fd3",
+            "sourceColumn": "IA_I521 99. No contesta",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I522 00. Error al iniciar",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e65a596e-bae4-439b-88fb-20b2a576b62b",
+            "sourceColumn": "IA_I522 00. Error al iniciar",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I523 Teléfono apagado/fuera de cobertura",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bc22fedf-9a6f-4347-85ab-2d6d7e1b24d2",
+            "sourceColumn": "IA_I523 Teléfono apagado/fuera de cobertura",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I524 Negativas a realizar la entrevista",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "166c9046-2797-4200-b5c2-10247ea26067",
+            "sourceColumn": "IA_I524 Negativas a realizar la entrevista",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I525 Interrupción llamada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6f024d59-8c8a-47e3-8d7c-cb57c718add5",
+            "sourceColumn": "IA_I525 Interrupción llamada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I526 Dificutad con el idioma",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e76619bf-88a2-4b8c-ba5f-5a647ecd6a8a",
+            "sourceColumn": "IA_I526 Dificutad con el idioma",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I528 Contacto fallido por no ser una vivienda/persona",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "df6735da-3684-4a8f-9f41-6b0dc2a9a653",
+            "sourceColumn": "IA_I528 Contacto fallido por no ser una vivienda/persona",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I529 Contacto fallido por no ser elegible",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fc557a31-428e-4fb3-b3d1-4fbcd0ac039d",
+            "sourceColumn": "IA_I529 Contacto fallido por no ser elegible",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I530 Incapacidad para responder/ininteligible",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "08d20062-3da6-4ee7-8de5-9ab54d85a28c",
+            "sourceColumn": "IA_I530 Incapacidad para responder/ininteligible",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I531 Otras",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "068402fc-9232-429f-8162-492df847b1de",
+            "sourceColumn": "IA_I531 Otras",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I532 No le gusta dar información por teléfono",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "56ee7a12-ee0f-43e6-9e80-f0cddba0c3bb",
+            "sourceColumn": "IA_I532 No le gusta dar información por teléfono",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I533 No tiene la garantía de la privaciad de sus datos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "51c19e7b-05f1-471e-80e2-4b3ad6448fee",
+            "sourceColumn": "IA_I533 No tiene la garantía de la privaciad de sus datos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I534 Difitultad con el idioma",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7e99b76a-ae60-4107-9dec-613ddf85251f",
+            "sourceColumn": "IA_I534 Difitultad con el idioma",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I535 Incapacidad para responder/ininteligile",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "141ed0c8-d852-4dc2-8e44-44dd739c29b3",
+            "sourceColumn": "IA_I535 Incapacidad para responder/ininteligile",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I536 No elegible",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2dcdb40f-fe92-4847-8590-7068aa38e665",
+            "sourceColumn": "IA_I536 No elegible",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I537 Rechazo por falta de tiempo o de interés en la encuesta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "99aed0dd-624a-4dbc-9e2e-e0195c15dead",
+            "sourceColumn": "IA_I537 Rechazo por falta de tiempo o de interés en la encuesta",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I538 Rechazo por desconfianza hacia las encuestas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0918f6fc-fad1-4537-aa6a-ccb9f7acddfc",
+            "sourceColumn": "IA_I538 Rechazo por desconfianza hacia las encuestas",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I539 Rechazo por desconfianza hacia el CIS",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e458cb04-a3b3-4f3c-9e18-48a8cd9c5e5e",
+            "sourceColumn": "IA_I539 Rechazo por desconfianza hacia el CIS",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I540 Rechazo por desconfiar de la llamada o por mantener la privacidad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1e5a0bf2-6c88-410b-baf6-75f4a590726c",
+            "sourceColumn": "IA_I540 Rechazo por desconfiar de la llamada o por mantener la privacidad",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I541 Rechaza ser encuestado/a en el idioma del cuestionario",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c3f52633-b5fa-4726-a90b-96b56db4e06e",
+            "sourceColumn": "IA_I541 Rechaza ser encuestado/a en el idioma del cuestionario",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I542 Rechazo por otras razones o sin dar explicaciones",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ba32ce64-c636-4d1a-96e9-e8e71bc8463a",
+            "sourceColumn": "IA_I542 Rechazo por otras razones o sin dar explicaciones",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_I543 Otras incidencias",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d73ee08c-5688-4f64-a80e-ab0076819514",
+            "sourceColumn": "IA_I543 Otras incidencias",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_OBS0 Mostrar tarjeta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cf04f938-bc42-47f0-86ff-d4aca8a4de2e",
+            "sourceColumn": "IA_OBS0 Mostrar tarjeta",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_OBS1 Pregunta incómoda",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9dbb89ac-ee12-40ee-9c41-bf769fb320f8",
+            "sourceColumn": "IA_OBS1 Pregunta incómoda",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_OBS2 Pregunta explicada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6ca1a75d-3ac3-4c40-b876-d6178fef6493",
+            "sourceColumn": "IA_OBS2 Pregunta explicada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_E1_DIA Día de realización",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "05ce56ba-5205-437c-9a6a-66d69e35446a",
+            "sourceColumn": "IA_E1_DIA Día de realización",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "IA_E1_MES Mes de realización",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "91cb140b-0b56-4351-8220-6db8843adbd4",
+            "sourceColumn": "IA_E1_MES Mes de realización",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_E1_ANYO Año de realización",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7ed5be95-f509-4171-8d44-ab7a2f59e9c5",
+            "sourceColumn": "IA_E1_ANYO Año de realización",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "IA_E2 Día de la semana que se realiza la entrevista",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "88668a18-69a7-4e8a-9f83-edf4b1e83e06",
+            "sourceColumn": "IA_E2 Día de la semana que se realiza la entrevista",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_E3 Duración de la entrevista en minutos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1e23a69b-8049-4f83-aef5-c72d9f7551ec",
+            "sourceColumn": "IA_E3 Duración de la entrevista en minutos",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "IA_E4 Hora de realización",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "29a96b6e-5cd8-4182-8463-1fafd6a443ad",
+            "sourceColumn": "IA_E4 Hora de realización",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_VALIDA Entrevista válida",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c187c8ed-9626-4629-bccf-adc144e0ef2a",
+            "sourceColumn": "IA_VALIDA Entrevista válida",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_APLAZADA Entrevista con aplazamientos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d392d14a-ed93-4337-9ea2-e910454d925a",
+            "sourceColumn": "IA_APLAZADA Entrevista con aplazamientos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_MODIFICADA Entrevista modificada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7cb5d888-447c-4086-8c4c-829552065562",
+            "sourceColumn": "IA_MODIFICADA Entrevista modificada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_SUPERVISADA Entrevista supervisada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d82d43bb-f098-4d48-89da-36f0836e9479",
+            "sourceColumn": "IA_SUPERVISADA Entrevista supervisada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2 Valoración de la supervisión",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a25c6257-1373-4362-b6c7-3bcd18480b48",
+            "sourceColumn": "IA_C2 Valoración de la supervisión",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2A Resultado supervisión",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aebc2f38-fd49-4986-8da9-90fd400f1c78",
+            "sourceColumn": "IA_C2A Resultado supervisión",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_1 Motivos entrevista incorrecta: Dirección inexistente (no existe número en la calle, piso, etc...)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "14dd068b-8d0b-43f9-8055-69796297e85f",
+            "sourceColumn": "IA_C2B_1 Motivos entrevista incorrecta: Dirección inexistente (no existe número en la calle, piso, etc...)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_2 Motivos entrevista incorrecta: Dirección ilocalizable (faltan datos: número, piso, letra, etc...)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0b8896a1-67e1-47e8-9002-16eb8d84d16a",
+            "sourceColumn": "IA_C2B_2 Motivos entrevista incorrecta: Dirección ilocalizable (faltan datos: número, piso, letra, etc...)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_3 Motivos entrevista incorrecta: No coinciden datos personales y no ha sido realizada en la dirección que se hace constar",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9392ece7-b350-4997-962f-d6a884ec97c4",
+            "sourceColumn": "IA_C2B_3 Motivos entrevista incorrecta: No coinciden datos personales y no ha sido realizada en la dirección que se hace constar",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_4 Motivos entrevista incorrecta: Negativa que ofrece dudas. Coinciden datos personales pero niegan haber realizado la entrevista",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8172fa7b-6dee-490f-97f0-f0bb0d79e718",
+            "sourceColumn": "IA_C2B_4 Motivos entrevista incorrecta: Negativa que ofrece dudas. Coinciden datos personales pero niegan haber realizado la entrevista",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_5 Motivos entrevista incorrecta: Realizada a una persona, recogiendo los datos de otra",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "21bf82f4-1421-4b67-a943-8c28569e6e8e",
+            "sourceColumn": "IA_C2B_5 Motivos entrevista incorrecta: Realizada a una persona, recogiendo los datos de otra",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_6 Motivos entrevista incorrecta: Realizada cambiando género del entrevistado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c97144b5-76a8-4936-a5ad-d7ce7368657c",
+            "sourceColumn": "IA_C2B_6 Motivos entrevista incorrecta: Realizada cambiando género del entrevistado",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_7 Motivos entrevista incorrecta: Cambio de edad por otra de un tramo contiguo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a5a7aa6a-2ff4-4f82-825c-8cb5c9c6bcf7",
+            "sourceColumn": "IA_C2B_7 Motivos entrevista incorrecta: Cambio de edad por otra de un tramo contiguo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_8 Motivos entrevista incorrecta: Cambio de edad por otra de un tramo no contiguo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "747a89dd-af17-4edd-80ea-b7c9be5f2106",
+            "sourceColumn": "IA_C2B_8 Motivos entrevista incorrecta: Cambio de edad por otra de un tramo no contiguo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_9 Motivos entrevista incorrecta: Realizada fuera de la vivienda pero vive en la sección electoral",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8def3ed2-317b-4ef0-b920-3df96c9f2449",
+            "sourceColumn": "IA_C2B_9 Motivos entrevista incorrecta: Realizada fuera de la vivienda pero vive en la sección electoral",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_10 Motivos entrevista incorrecta: Realizada fuera de la vivienda, y no vive en la sección electoral",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "13d1fc36-86c0-45be-a1ce-64597130ad91",
+            "sourceColumn": "IA_C2B_10 Motivos entrevista incorrecta: Realizada fuera de la vivienda, y no vive en la sección electoral",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_11 Motivos entrevista incorrecta: Realizada en dirección que no corresponde a la sección electoral",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f1309196-40b9-4bbd-8831-6a807d57df53",
+            "sourceColumn": "IA_C2B_11 Motivos entrevista incorrecta: Realizada en dirección que no corresponde a la sección electoral",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_12 Motivos entrevista incorrecta: Realizada, pero no respeta las normas de ruta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6a2adb20-022f-4bc2-990e-a19167a31fce",
+            "sourceColumn": "IA_C2B_12 Motivos entrevista incorrecta: Realizada, pero no respeta las normas de ruta",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_13 Motivos entrevista incorrecta: Se detecta que no ha hecho todas las preguntas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6db3dc66-a47b-42aa-95c9-6395a7791a17",
+            "sourceColumn": "IA_C2B_13 Motivos entrevista incorrecta: Se detecta que no ha hecho todas las preguntas",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_14 Motivos entrevista incorrecta: Negativa que ofrece dudas: no coincide la dirección ni datos personales. Posibilidad de error en el teléfono",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ead3046f-5c13-48d0-8c91-84c349d5cd29",
+            "sourceColumn": "IA_C2B_14 Motivos entrevista incorrecta: Negativa que ofrece dudas: no coincide la dirección ni datos personales. Posibilidad de error en el teléfono",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_15 Motivos entrevista incorrecta: No hay grabación",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1b848d20-5d25-4ca6-a785-8c5a9ddc9278",
+            "sourceColumn": "IA_C2B_15 Motivos entrevista incorrecta: No hay grabación",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_16 Motivos entrevista incorrecta: Realizada en otro idioma",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7bd12aef-61df-44ca-a105-4988660406ae",
+            "sourceColumn": "IA_C2B_16 Motivos entrevista incorrecta: Realizada en otro idioma",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_17 Motivos entrevista incorrecta: Realizada en un establecimiento o negocio, no es un domicilio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1eaacfe0-dd3f-41e4-94f6-6e4aa940b132",
+            "sourceColumn": "IA_C2B_17 Motivos entrevista incorrecta: Realizada en un establecimiento o negocio, no es un domicilio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_18 Motivos entrevista incorrecta: Valores de cuota anotados incorrectamente, distintos de sexo y edad (provincia/municipio/situación laboral)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c29392ec-f65e-4021-9a04-b13d4cebac7c",
+            "sourceColumn": "IA_C2B_18 Motivos entrevista incorrecta: Valores de cuota anotados incorrectamente, distintos de sexo y edad (provincia/municipio/situación laboral)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_19 Motivos entrevista incorrecta: No se lee el protocolo de inicio o fin de la encuesta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e73550af-de9a-43fb-9ea2-1a6538721829",
+            "sourceColumn": "IA_C2B_19 Motivos entrevista incorrecta: No se lee el protocolo de inicio o fin de la encuesta",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_20 Motivos entrevista incorrecta: Entrevista interrumpida y autocompletada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "66da6683-f976-4314-ac1e-91b0b08f6a71",
+            "sourceColumn": "IA_C2B_20 Motivos entrevista incorrecta: Entrevista interrumpida y autocompletada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_21 Motivos entrevista incorrecta: No se leen  literalmente las preguntas y/o las opciones de respuesta",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fdcf556f-72e2-45c1-b61b-e521be99eb9d",
+            "sourceColumn": "IA_C2B_21 Motivos entrevista incorrecta: No se leen  literalmente las preguntas y/o las opciones de respuesta",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_22 Motivos entrevista incorrecta: Induce las respuestas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "541b8f04-bcca-44d6-99e0-94ec35b13e5b",
+            "sourceColumn": "IA_C2B_22 Motivos entrevista incorrecta: Induce las respuestas",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_23 Motivos entrevista incorrecta: No se recogen fielmente las respuestas espontáneas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "97956092-59af-416a-b3c1-71b250adbb54",
+            "sourceColumn": "IA_C2B_23 Motivos entrevista incorrecta: No se recogen fielmente las respuestas espontáneas",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_24 Motivos entrevista incorrecta: Lee las categorías de respuesta cuando ésta es espontánea",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bc71b1c3-2a1d-439c-a7fb-e29e15121c3e",
+            "sourceColumn": "IA_C2B_24 Motivos entrevista incorrecta: Lee las categorías de respuesta cuando ésta es espontánea",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C2B_25 Motivos entrevista incorrecta: Codificación incorrecta por parte del entrevistador (Ej. estudios, problemas, preguntas precodificadas…)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c76f4d3f-82f5-4861-b656-9f4a07eb311b",
+            "sourceColumn": "IA_C2B_25 Motivos entrevista incorrecta: Codificación incorrecta por parte del entrevistador (Ej. estudios, problemas, preguntas precodificadas…)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C3 Resultado final",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8620a491-ed62-43ce-8694-df55bc61607c",
+            "sourceColumn": "IA_C3 Resultado final",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IA_C4 Supervisor",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e3cfb043-3213-49f0-8668-e19789cc5143",
+            "sourceColumn": "IA_C4 Supervisor",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Grupo edad",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dab2408f-6c24-4b14-b402-fa3ad067d788",
+            "sourceColumn": "Grupo edad",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Orden Voto",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": [
+              "",
+              "SWITCH(",
+              "    '3393_etiq'[Voto],",
+              "    \"Vox\", 1,",
+              "    \"PP\", 2,",
+              "    \"Ciudadanos\", 3,",
+              "    \"PSOE\", 4,",
+              "    \"Unicas Podemos\", 5,",
+              "    BLANK()",
+              ")",
+              ""
+            ],
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "e9d214c3-c92e-4cc3-907e-77abb7251cc6",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Voto ordenado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f463ab61-6436-4f59-a62f-59e4a296a46c",
+            "sourceColumn": "Voto ordenado",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P4 Ordenada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "67071ad5-aa0a-4063-aa92-c4f7b5b9b6a7",
+            "sourceColumn": "P4 Ordenada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P11 ordenada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "94618a13-5d48-42bc-be68-d2f35c773164",
+            "sourceColumn": "P11 ordenada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P11A ordenada",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "47385417-0994-489d-9158-e08ad57075dd",
+            "sourceColumn": "P11A ordenada",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ingresos ordenado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1011d53a-9495-47e9-8b9a-5b6f92ccd1ce",
+            "sourceColumn": "ingresos ordenado",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "848c9b59-1740-4124-837f-7e14518b7af9",
+        "measures": [
+          {
+            "name": "Porcentaje Respuestas",
+            "expression": [
+              "",
+              "DIVIDE(",
+              "    COUNT('3393_etiq'[Cuestionario]),",
+              "    CALCULATE(",
+              "        COUNT('3393_etiq'[Cuestionario]),",
+              "        ALLEXCEPT('3393_etiq', '3393_etiq'[Grupo edad], '3393_etiq'[Sexo], '3393_etiq'[Voto])",
+              "    ),",
+              "    0",
+              ")",
+              ""
+            ],
+            "lineageTag": "f1cc78c6-d6a0-4b33-a8a2-ae4c2ad7fd4b"
+          },
+          {
+            "name": "PorcentajeVotoSexo",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "DIVIDE(",
+              "    COUNT('3393_etiq'[Cuestionario]),",
+              "    CALCULATE(",
+              "        COUNT('3393_etiq'[Cuestionario]),",
+              "        ALLEXCEPT('3393_etiq', '3393_etiq'[Grupo edad], '3393_etiq'[Sexo], '3393_etiq'[Voto])",
+              "    ),",
+              "    0",
+              ")",
+              ""
+            ],
+            "lineageTag": "d16d00ad-2550-4059-81cb-aa9e97796104"
+          },
+          {
+            "name": "Porcentaje superviviente",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "DIVIDE(",
+              "    COUNT('3393_etiq'[Cuestionario]),",
+              "    CALCULATE(",
+              "        COUNT('3393_etiq'[Cuestionario]),",
+              "        ALLEXCEPT('3393_etiq', '3393_etiq'[P13_4])",
+              "    ),",
+              "    0",
+              ")"
+            ],
+            "lineageTag": "9d6b57a8-8559-4674-8753-0866a92255b9"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "3393_etiq",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\Luzma\\Desktop\\Adalab\\modulo 4\\power bi\\3393_etiq.csv\"),[Delimiter=\";\", Columns=173, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"ESTUDIO Código del estudio\", Int64.Type}, {\"REGISTRO Número de registro\", Int64.Type}, {\"CUES Cuestionario\", Int64.Type}, {\"MUN Municipio\", type text}, {\"CCAA Comunidad autónoma\", type text}, {\"PROV Provincia\", type text}, {\"TAMUNI Tamaño de municipio\", type text}, {\"ENTREV Entrevistador\", type text}, {\"TIPO_TEL Tipo de teléfono\", type text}, {\"CAPITAL Capital\", type text}, {\"SEXO Sexo de la persona entrevistada\", type text}, {\"EDAD Edad de la persona entrevistada\", Int64.Type}, {\"P0 Nacionalidad de la persona entrevistada\", type text}, {\"P1_1 Por su edad\", type text}, {\"P1_2 Por su sexo\", type text}, {\"P1_3 Por su etnia o país de origen\", type text}, {\"P1_4 Por su nivel de estudios o clase social\", type text}, {\"P1_5 Por su aspecto físico\", type text}, {\"P1_6 Por su opción u orientación sexual\", type text}, {\"P1_7 Por padecer alguna discapacidad\", type text}, {\"P1_8 Por padecer alguna enfermedad crónica\", type text}, {\"P1_9 Por sus creencias religiosas\", type text}, {\"P1_10 Por su identidad de género\", type text}, {\"P1_11 Por su lugar, barrio o zona de residencia\", type text}, {\"P1_12 Por sus ideas, por su ideología política\", type text}, {\"P1_13 Por su lengua (cooficial)\", type text}, {\"P1_96 Otra causa\", type text}, {\"P1_97 Por ninguna\", type text}, {\"P1_98 N.S.\", type text}, {\"P1_99 N.C.\", type text}, {\"P2_1 Hacer comentarios ofensivos o embarazosos en Internet o redes sociales sobre alguna persona\", type text}, {\"P2_2 Enviar correos electrónicos o mensajes de texto con contenido sexual no deseado\", type text}, {\"P2_3 Compartir fotografías o vídeos de carácter sexual a través de redes sociales (Facebook, WhatsApp, Instagram, etc.) sin el consentimiento de las personas que aparecen en la foto o vídeo\", type text}, {\"P2_4 Presionar a una persona para que envíe fotos suyas desnuda\", type text}, {\"P2_5 Chantajear a una persona con difundir fotografías o vídeos suyos de carácter sexual\", type text}, {\"P3 Percepción de la extensión del acoso sexual en el ámbito digital en España\", type text}, {\"P4 Percepción de las desigualdades entre hombres y mujeres en España\", type text}, {\"P5 Percepción retrospectiva (10 años) de las desigualdades entre hombres y mujeres en España\", type text}, {\"P6_1 Obligar a la pareja a mantener relaciones sexuales no deseadas\", type text}, {\"P6_2 Hacer comentarios y sugerencias de tipo sexual no deseados a una mujer\", type text}, {\"P6_3 Besar a una mujer contra su voluntad\", type text}, {\"P6_4 Tocar a una mujer de forma no deseada\", type text}, {\"P6_5 Dar de manera deliberada alcohol o drogas a una mujer, sin que ella lo sepa, para poder mantener relaciones sexuales con ella\", type text}, {\"P6_6 Pagar a una mujer por mantener relaciones sexuales\", type text}, {\"P7 Percepción sobre la extensión de las agresiones sexuales en la actualidad\", type text}, {\"P8 Motivo principal por el que algunos hombres agreden sexualmente a las mujeres\", type text}, {\"P8A Segundo motivo por el que algunos hombres agreden sexualmente a las mujeres\", type text}, {\"P9 Lugar principal de las agresiones sexuales contra las mujeres\", type text}, {\"P9A Segundo lugar donde se producen las agresiones sexuales contra las mujeres\", type text}, {\"P10_1 Chistes o bromas insultantes sobre la mujer en general\", type text}, {\"P10_2 Chistes o bromas insultantes sobre una trabajadora\", type text}, {\"P10_3 Comentarios sexuales sobre una trabajadora (sobre su cuerpo, su forma de vestir o su sexualidad)\", type text}, {\"P10_4 Piropos ofensivos\", type text}, {\"P10_5 Insinuaciones o indirectas sexuales\", type text}, {\"P10_6 Preguntas sobre cuestiones privadas de su vida sexual\", type text}, {\"P10_7 Gestos y miradas obscenas\", type text}, {\"P10_8 Pedir reiteradamente relaciones sexuales sin presiones ni amenazas\", type text}, {\"P10_9 Tocamientos, pellizcos, acorralamientos\", type text}, {\"P10_10 Abrazos o besos no deseados\", type text}, {\"P10_11 Presiones para obtener favores sexuales a cambio de mejoras laborales o bajo amenaza de despido\", type text}, {\"P11 Frecuencia con que las mujeres denuncian las agresiones sexuales\", type text}, {\"P11A Momento en el el que las mujeres que sufren una agresión sexual lo denuncian\", type text}, {\"P12 Razón principal por la que las mujeres que han sufrido agresión sexual no denuncian\", type text}, {\"P12A Segunda razón por la que las mujeres que han sufrido agresión sexual no denuncian\", type text}, {\"P13_1 Su círculo familiar o de amistades\", type text}, {\"P13_2 En la zona donde vive, en su vecindario\", type text}, {\"P13_3 En su lugar de trabajo y/o estudio\", type text}, {\"P13_4 (SOLO A MUJERES) Usted misma\", type text}, {\"SITCONV Situación de convivencia de la persona entrevistada\", type text}, {\"ECIVIL Estado civil de la persona entrevistada\", type text}, {\"ESCIDEOL Escala de autoubicación ideológica (1-10)\", type text}, {\"PARTICIPACIONG Participación electoral en las elecciones generales de noviembre de 2019\", type text}, {\"RECUVOTOG Recuerdo de voto en las elecciones generales de noviembre de 2019 de los votantes\", type text}, {\"RECUVOTOGR Recuerdo de voto en las elecciones generales de noviembre de 2019 de los votantes [recodificada]\", type text}, {\"RECUERDO Recuerdo de voto en las elecciones generales de noviembre de 2019\", type text}, {\"ESCUELA Escolarización de la persona entrevistada\", type text}, {\"NIVELESTENTREV Nivel de estudios alcanzado por la persona entrevistada\", type text}, {\"ESTUDIOS Estudios de la persona entrevistada\", type text}, {\"RELIGION Religiosidad de la persona entrevistada\", type text}, {\"PRACTICARELIG6 Frecuencia de asistencia a oficios religiosos\", type text}, {\"SITLAB Situación laboral de la persona entrevistada\", type text}, {\"RELALAB Situación profesional de la persona entrevistada\", type text}, {\"CNO11 Ocupación de la persona entrevistada (CNO11)\", type text}, {\"CNO11R Población activa e inactiva\", type text}, {\"INGRESHOG Nivel de ingresos en el hogar\", type text}, {\"CLASESOCIAL Clase social subjetiva de la persona entrevistada\", type text}, {\"CLASESUB Identificación subjetiva de clase\", type text}, {\"SINCERIDAD Grado de sinceridad de la persona entrevistada según el/la entrevistador/a\", type text}, {\"PESO Ponderación\", type number}, {\"IA_I501 Dificultad de acceso al edificio, casa, urbanización, etc\", type text}, {\"IA_I502 Viviendas en las que no hay nadie\", type text}, {\"IA_I503 Viviendas en las que se niegan a recibir ninguna explicación\", type text}, {\"IA_I504 Negativas de hombres a realizar la entrevista\", type text}, {\"IA_I505 Negativas de mujeres a realizar la entrevista\", type text}, {\"IA_I506 Contactos fallidos por no cumplir cuotas\", type text}, {\"IA_I507 Contactos fallidos por no ser una vivienda (oficinas, consultas medicas, etc.)\", type text}, {\"IA_I508 Viviendas de población extranjera\", type text}, {\"IA_I509 01.  No quiere colaborar\", type text}, {\"IA_I510 02.  Falta de tiempo. Está muy ocupado/a\", type text}, {\"IA_I511 03.  Falta de interés por hacer una encuesta\", type text}, {\"IA_I512 04.  Desconfianza hacia las encuestas.\", type text}, {\"IA_I513 05.  Desconfianza hacia el CIS\", type text}, {\"IA_I514 06.  Rehúsa porque su pareja/familia/hogar no quiere.\", type text}, {\"IA_I515 07.  Lo considera una pérdida de tiempo\", type text}, {\"IA_I516 08.  No sabe lo suficiente/nada del tema, demasiado difícil\", type text}, {\"IA_I517 09.  El tema no le interesa.\", type text}, {\"IA_I518 10.  Resulta demasiada larga.\", type text}, {\"IA_I519 11.  No le gusta el ordenador.\", type text}, {\"IA_I520 96. Otras\", type text}, {\"IA_I521 99. No contesta\", type text}, {\"IA_I522 00. Error al iniciar\", type text}, {\"IA_I523 Teléfono apagado/fuera de cobertura\", type text}, {\"IA_I524 Negativas a realizar la entrevista\", type text}, {\"IA_I525 Interrupción llamada\", type text}, {\"IA_I526 Dificutad con el idioma\", type text}, {\"IA_I528 Contacto fallido por no ser una vivienda/persona\", type text}, {\"IA_I529 Contacto fallido por no ser elegible\", type text}, {\"IA_I530 Incapacidad para responder/ininteligible\", type text}, {\"IA_I531 Otras\", type text}, {\"IA_I532 No le gusta dar información por teléfono\", type text}, {\"IA_I533 No tiene la garantía de la privaciad de sus datos\", type text}, {\"IA_I534 Difitultad con el idioma\", type text}, {\"IA_I535 Incapacidad para responder/ininteligile\", type text}, {\"IA_I536 No elegible\", type text}, {\"IA_I537 Rechazo por falta de tiempo o de interés en la encuesta\", type text}, {\"IA_I538 Rechazo por desconfianza hacia las encuestas\", type text}, {\"IA_I539 Rechazo por desconfianza hacia el CIS\", type text}, {\"IA_I540 Rechazo por desconfiar de la llamada o por mantener la privacidad\", type text}, {\"IA_I541 Rechaza ser encuestado/a en el idioma del cuestionario\", type text}, {\"IA_I542 Rechazo por otras razones o sin dar explicaciones\", type text}, {\"IA_I543 Otras incidencias\", type text}, {\"IA_OBS0 Mostrar tarjeta\", type text}, {\"IA_OBS1 Pregunta incómoda\", type text}, {\"IA_OBS2 Pregunta explicada\", type text}, {\"IA_E1_DIA Día de realización\", Int64.Type}, {\"IA_E1_MES Mes de realización\", type text}, {\"IA_E1_ANYO Año de realización\", Int64.Type}, {\"IA_E2 Día de la semana que se realiza la entrevista\", type text}, {\"IA_E3 Duración de la entrevista en minutos\", Int64.Type}, {\"IA_E4 Hora de realización\", type text}, {\"IA_VALIDA Entrevista válida\", type text}, {\"IA_APLAZADA Entrevista con aplazamientos\", type text}, {\"IA_MODIFICADA Entrevista modificada\", type text}, {\"IA_SUPERVISADA Entrevista supervisada\", type text}, {\"IA_C2 Valoración de la supervisión\", type text}, {\"IA_C2A Resultado supervisión\", type text}, {\"IA_C2B_1 Motivos entrevista incorrecta: Dirección inexistente (no existe número en la calle, piso, etc...)\", type text}, {\"IA_C2B_2 Motivos entrevista incorrecta: Dirección ilocalizable (faltan datos: número, piso, letra, etc...)\", type text}, {\"IA_C2B_3 Motivos entrevista incorrecta: No coinciden datos personales y no ha sido realizada en la dirección que se hace constar\", type text}, {\"IA_C2B_4 Motivos entrevista incorrecta: Negativa que ofrece dudas. Coinciden datos personales pero niegan haber realizado la entrevista\", type text}, {\"IA_C2B_5 Motivos entrevista incorrecta: Realizada a una persona, recogiendo los datos de otra\", type text}, {\"IA_C2B_6 Motivos entrevista incorrecta: Realizada cambiando género del entrevistado\", type text}, {\"IA_C2B_7 Motivos entrevista incorrecta: Cambio de edad por otra de un tramo contiguo\", type text}, {\"IA_C2B_8 Motivos entrevista incorrecta: Cambio de edad por otra de un tramo no contiguo\", type text}, {\"IA_C2B_9 Motivos entrevista incorrecta: Realizada fuera de la vivienda pero vive en la sección electoral\", type text}, {\"IA_C2B_10 Motivos entrevista incorrecta: Realizada fuera de la vivienda, y no vive en la sección electoral\", type text}, {\"IA_C2B_11 Motivos entrevista incorrecta: Realizada en dirección que no corresponde a la sección electoral\", type text}, {\"IA_C2B_12 Motivos entrevista incorrecta: Realizada, pero no respeta las normas de ruta\", type text}, {\"IA_C2B_13 Motivos entrevista incorrecta: Se detecta que no ha hecho todas las preguntas\", type text}, {\"IA_C2B_14 Motivos entrevista incorrecta: Negativa que ofrece dudas: no coincide la dirección ni datos personales. Posibilidad de error en el teléfono\", type text}, {\"IA_C2B_15 Motivos entrevista incorrecta: No hay grabación\", type text}, {\"IA_C2B_16 Motivos entrevista incorrecta: Realizada en otro idioma\", type text}, {\"IA_C2B_17 Motivos entrevista incorrecta: Realizada en un establecimiento o negocio, no es un domicilio\", type text}, {\"IA_C2B_18 Motivos entrevista incorrecta: Valores de cuota anotados incorrectamente, distintos de sexo y edad (provincia/municipio/situación laboral)\", type text}, {\"IA_C2B_19 Motivos entrevista incorrecta: No se lee el protocolo de inicio o fin de la encuesta\", type text}, {\"IA_C2B_20 Motivos entrevista incorrecta: Entrevista interrumpida y autocompletada\", type text}, {\"IA_C2B_21 Motivos entrevista incorrecta: No se leen  literalmente las preguntas y/o las opciones de respuesta\", type text}, {\"IA_C2B_22 Motivos entrevista incorrecta: Induce las respuestas\", type text}, {\"IA_C2B_23 Motivos entrevista incorrecta: No se recogen fielmente las respuestas espontáneas\", type text}, {\"IA_C2B_24 Motivos entrevista incorrecta: Lee las categorías de respuesta cuando ésta es espontánea\", type text}, {\"IA_C2B_25 Motivos entrevista incorrecta: Codificación incorrecta por parte del entrevistador (Ej. estudios, problemas, preguntas precodificadas…)\", type text}, {\"IA_C3 Resultado final\", type text}, {\"IA_C4 Supervisor\", type text}}),",
+                "    #\"Columna duplicada\" = Table.DuplicateColumn(#\"Tipo cambiado\", \"EDAD Edad de la persona entrevistada\", \"EDAD Edad de la persona entrevistada - Copia\"),",
+                "    #\"Tipo cambiado1\" = Table.TransformColumnTypes(#\"Columna duplicada\",{{\"EDAD Edad de la persona entrevistada - Copia\", type text}}),",
+                "    #\"Valor reemplazado\" = Table.ReplaceValue(#\"Tipo cambiado1\",\"18\",\"18-29 años\",Replacer.ReplaceText,{\"EDAD Edad de la persona entrevistada - Copia\"}),",
+                "    #\"Valor reemplazado1\" = Table.ReplaceValue(#\"Valor reemplazado\",\"19\",\"18-29 años\",Replacer.ReplaceText,{\"EDAD Edad de la persona entrevistada - Copia\"}),",
+                "    #\"Valor reemplazado2\" = Table.ReplaceValue(#\"Valor reemplazado1\",\"20\",\"18-29 años\",Replacer.ReplaceText,{\"EDAD Edad de la persona entrevistada - Copia\"}),",
+                "    #\"Valor reemplazado3\" = Table.ReplaceValue(#\"Valor reemplazado2\",\"21\",\"18-29 años\",Replacer.ReplaceText,{\"EDAD Edad de la persona entrevistada - Copia\"}),",
+                "    #\"Valor reemplazado4\" = Table.ReplaceValue(#\"Valor reemplazado3\",\"22\",\"18-29 años\",Replacer.ReplaceText,{\"EDAD Edad de la persona entrevistada - Copia\"}),",
+                "    #\"Valor reemplazado5\" = Table.ReplaceValue(#\"Valor reemplazado4\",\"23\",\"18-29 años\",Replacer.ReplaceText,{\"EDAD Edad de la persona entrevistada - Copia\"}),",
+                "    #\"Valor reemplazado6\" = Table.ReplaceValue(#\"Valor reemplazado5\",\"24\",\"18-29 años\",Replacer.ReplaceText,{\"EDAD Edad de la persona entrevistada - Copia\"}),",
+                "    #\"Valor reemplazado7\" = Table.ReplaceValue(#\"Valor reemplazado6\",\"25\",\"18-29 años\",Replacer.ReplaceText,{\"EDAD Edad de la persona entrevistada - Copia\"}),",
+                "    #\"Valor reemplazado8\" = Table.ReplaceValue(#\"Valor reemplazado7\",\"26\",\"18-29 años\",Replacer.ReplaceText,{\"EDAD Edad de la persona entrevistada - Copia\"}),",
+                "    #\"Valor reemplazado9\" = Table.ReplaceValue(#\"Valor reemplazado8\",\"27\",\"18-29 años\",Replacer.ReplaceText,{\"EDAD Edad de la persona entrevistada - Copia\"}),",
+                "    #\"Columnas quitadas\" = Table.RemoveColumns(#\"Valor reemplazado9\",{\"EDAD Edad de la persona entrevistada - Copia\"}),",
+                "    #\"Columna condicional agregada\" = Table.AddColumn(#\"Columnas quitadas\", \"Grupo edad\", each if [EDAD Edad de la persona entrevistada] <= 29 then \"18-29\" else if [EDAD Edad de la persona entrevistada] <= 39 then \"30-39\" else if [EDAD Edad de la persona entrevistada] <= 49 then \"40-49\" else if [EDAD Edad de la persona entrevistada] <= 59 then \"50-59\" else if [EDAD Edad de la persona entrevistada] < 69 then \"60-69\" else if [EDAD Edad de la persona entrevistada] <= 100 then 70 else null),",
+                "    #\"Tipo cambiado2\" = Table.TransformColumnTypes(#\"Columna condicional agregada\",{{\"Grupo edad\", type text}}),",
+                "    #\"Valor reemplazado10\" = Table.ReplaceValue(#\"Tipo cambiado2\",\"70\",\"70 o más\",Replacer.ReplaceText,{\"Grupo edad\"}),",
+                "    #\"Columnas con nombre cambiado\" = Table.RenameColumns(#\"Valor reemplazado10\",{{\"SEXO Sexo de la persona entrevistada\", \"Sexo\"}, {\"CUES Cuestionario\", \"Cuestionario\"}, {\"RECUVOTOGR Recuerdo de voto en las elecciones generales de noviembre de 2019 de los votantes [recodificada]\", \"Voto\"}, {\"P13_4 (SOLO A MUJERES) Usted misma\", \"P13_4\"}}),",
+                "    #\"Columna condicional agregada1\" = Table.AddColumn(#\"Columnas con nombre cambiado\", \"P11 Ordenado\", each if [P11 Frecuencia con que las mujeres denuncian las agresiones sexuales] = \"En la mayor parte de las ocasiones\" then 2 else if [P11 Frecuencia con que las mujeres denuncian las agresiones sexuales] = \"En pocas ocasiones\" then 3 else if [P11 Frecuencia con que las mujeres denuncian las agresiones sexuales] = \"Casi nunca\" then 4 else if [P11 Frecuencia con que las mujeres denuncian las agresiones sexuales] = \"Nunca\" then 5 else if [P11 Frecuencia con que las mujeres denuncian las agresiones sexuales] = \"Siempre que sucede\" then 1 else null),",
+                "    #\"Valor reemplazado11\" = Table.ReplaceValue(#\"Columna condicional agregada1\",null,0,Replacer.ReplaceValue,{\"P11 Ordenado\"}),",
+                "    #\"Columnas quitadas1\" = Table.RemoveColumns(#\"Valor reemplazado11\",{\"P11 Ordenado\"}),",
+                "    #\"Columna condicional agregada2\" = Table.AddColumn(#\"Columnas quitadas1\", \"Voto ordenado\", each if [Voto] = \"Unidas Podemos\" then 1 else if [Voto] = \"PSOE\" then 2 else if [Voto] = \"Ciudadanos\" then 3 else if [Voto] = \"PP\" then 4 else if [Voto] = \"VOX\" then 5 else 0),",
+                "    #\"Columna condicional agregada3\" = Table.AddColumn(#\"Columna condicional agregada2\", \"P11Ordenador\", each if [P11 Frecuencia con que las mujeres denuncian las agresiones sexuales] = \"Siempre que sucede\" then 1 else if [P11 Frecuencia con que las mujeres denuncian las agresiones sexuales] = \"En la mayor parte de las ocasiones \" then 2 else if [P11 Frecuencia con que las mujeres denuncian las agresiones sexuales] = \"En pocas ocasiones\" then 3 else if [P11 Frecuencia con que las mujeres denuncian las agresiones sexuales] = \"Casi nunca\" then 4 else if [P11 Frecuencia con que las mujeres denuncian las agresiones sexuales] = \"Nunca\" then 5 else 0),",
+                "    #\"Índice agregado\" = Table.AddIndexColumn(#\"Columna condicional agregada3\", \"Índice\", 0, 1, Int64.Type),",
+                "    #\"Columnas quitadas2\" = Table.RemoveColumns(#\"Índice agregado\",{\"Índice\"}),",
+                "    #\"Columna condicional agregada4\" = Table.AddColumn(#\"Columnas quitadas2\", \"P4 Ordenada\", each if [P4 Percepción de las desigualdades entre hombres y mujeres en España] = \"Muy grandes\" then 1 else if [P4 Percepción de las desigualdades entre hombres y mujeres en España] = \"Bastante grandes\" then 2 else if [P4 Percepción de las desigualdades entre hombres y mujeres en España] = \"Pequeñas\" then 3 else if [P4 Percepción de las desigualdades entre hombres y mujeres en España] = \"Casi inexistentes\" then 4 else 5),",
+                "    #\"Columnas quitadas3\" = Table.RemoveColumns(#\"Columna condicional agregada4\",{\"P11Ordenador\"}),",
+                "    #\"Columna condicional agregada5\" = Table.AddColumn(#\"Columnas quitadas3\", \"Personalizado\", each if [P11 Frecuencia con que las mujeres denuncian las agresiones sexuales] = \"Siempre que sucede\" then 1 else if [P11 Frecuencia con que las mujeres denuncian las agresiones sexuales] = \"En la mayor parte de las ocasiones\" then 2 else if [P11 Frecuencia con que las mujeres denuncian las agresiones sexuales] = \"En pocas ocasiones\" then 3 else if [P11 Frecuencia con que las mujeres denuncian las agresiones sexuales] = \"Casi nunca\" then 4 else if [P11 Frecuencia con que las mujeres denuncian las agresiones sexuales] = \"Nunca\" then 5 else 6),",
+                "    #\"Columnas con nombre cambiado1\" = Table.RenameColumns(#\"Columna condicional agregada5\",{{\"Personalizado\", \"P11 ordenada\"}}),",
+                "    #\"Columna condicional agregada6\" = Table.AddColumn(#\"Columnas con nombre cambiado1\", \"P11A ordenada\", each if [P11A Momento en el el que las mujeres que sufren una agresión sexual lo denuncian] = \"Inmediatamente, el mismo día o al día siguiente\" then 1 else if [P11A Momento en el el que las mujeres que sufren una agresión sexual lo denuncian] = \"Esperan un tiempo, pero no demasiado\" then 2 else if [P11A Momento en el el que las mujeres que sufren una agresión sexual lo denuncian] = \"Esperan mucho tiempo antes de hacerlo\" then 3 else if [P11A Momento en el el que las mujeres que sufren una agresión sexual lo denuncian] = \"Esperan mucho tiempo antes de hacerlo\" then 4 else 5),",
+                "    #\"Columna condicional agregada7\" = Table.AddColumn(#\"Columna condicional agregada6\", \"Ingresos ordenado\", each if [INGRESHOG Nivel de ingresos en el hogar] = \"Menos de 1.100 €\" then 1 else if [INGRESHOG Nivel de ingresos en el hogar] = \"De 1.100 a 1.800 €\" then 2 else if [INGRESHOG Nivel de ingresos en el hogar] = \"De 1.801 a 2.700 €\" then 3 else if [INGRESHOG Nivel de ingresos en el hogar] = \"De 2.701 a 3.900 €\" then 4 else if [INGRESHOG Nivel de ingresos en el hogar] = \"De 2.701 a 3.900 €\" then 5 else if [INGRESHOG Nivel de ingresos en el hogar] = \"De 3.901 a 5.000 € \"then 6 else if [INGRESHOG Nivel de ingresos en el hogar] = \"Más de 5.000 €\"  then 7 else 8),",
+                "    #\"Columnas quitadas4\" = Table.RemoveColumns(#\"Columna condicional agregada7\",{\"Ingresos ordenado\"}),",
+                "    #\"Columna condicional agregada8\" = Table.AddColumn(#\"Columnas quitadas4\", \"ingresos ordenado\", each if [INGRESHOG Nivel de ingresos en el hogar] = \"Menos de 1.100 €\" then 1 else if [INGRESHOG Nivel de ingresos en el hogar] = \"De 1.100 a 1.800 €\" then 2 else if [INGRESHOG Nivel de ingresos en el hogar] = \"De 1.801 a 2.700 €\" then 3 else if [INGRESHOG Nivel de ingresos en el hogar] = \"De 2.701 a 3.900 €\" then 4 else if [INGRESHOG Nivel de ingresos en el hogar] = \"De 3.901 a 5.000 €\" then 5 else if [INGRESHOG Nivel de ingresos en el hogar] = \"Más de 5.000 €\" then 6 else 7)",
+                "in",
+                "    #\"Columna condicional agregada8\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_e034f112-2205-4c83-a9ab-9a21e23badb0",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "b8dba85d-38ab-42d1-8c7a-d2e5cd5d48c6",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "a28f33f0-ba6d-4f20-be41-edf5f7141859",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "358664b2-198e-4669-a3e4-9a8355a4e2c0",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "95c6f902-5117-410a-911a-f22ec4ac84c8",
+            "sortByColumn": "NroMes",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "NroTrimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([NroMes] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "cd807968-ce71-4215-9ce5-48f2b9b8cec5",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim. \" & [NroTrimestre]",
+            "isHidden": true,
+            "lineageTag": "e67f52fd-05bf-4343-8032-cb2ec9926f6a",
+            "sortByColumn": "NroTrimestre",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Día",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "303efa54-6fc8-4f86-a0cd-f796fdd70014",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Jerarquía de fechas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Año",
+                "column": "Año",
+                "lineageTag": "9c5f0644-eee5-4be7-b660-05b688f95535",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "8c35d11b-843c-4de0-b96c-e4f36fcd93e7",
+                "ordinal": 1
+              },
+              {
+                "name": "Mes",
+                "column": "Mes",
+                "lineageTag": "c438149b-e6d0-429a-9a53-bcb5d10ed034",
+                "ordinal": 2
+              },
+              {
+                "name": "Día",
+                "column": "Día",
+                "lineageTag": "4409061d-9232-4dc4-8f46-440419398301",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "7e941958-cc5a-4d36-a050-a93bb009feed"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "280d032a-b375-4164-99fb-20d08e730c6b",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_e034f112-2205-4c83-a9ab-9a21e23badb0",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "ministerio interior",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6a2220f4-328c-46a1-9caf-d9f63a9629a3",
+            "sourceColumn": "Año",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Victimizaciones",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7b82fdf6-e2e3-4899-b1f8-710b9ebdd3ba",
+            "sourceColumn": "Victimizaciones",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Hechos conocidos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b51da98a-bac0-4188-b3c4-45ada22e567b",
+            "sourceColumn": "Hechos conocidos",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Recuento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "066c5afe-6c14-4162-9b00-740444f8a02b",
+            "sourceColumn": "Recuento",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "dfd1f062-2853-4d44-a18c-0f46b5f29390",
+        "partitions": [
+          {
+            "name": "ministerio interior",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\Luzma\\Desktop\\Adalab\\modulo 4\\power bi\\ministerio interior.csv\"),[Delimiter=\";\", Columns=4, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"Año\", Int64.Type}, {\"Victimizaciones\", Int64.Type}, {\"Hechos conocidos\", Int64.Type}, {\"Recuento\", Int64.Type}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

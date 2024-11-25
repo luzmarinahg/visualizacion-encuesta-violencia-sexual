@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../CIS_Opinion_violencia_sexual.SemanticModel"
+    },
+    "byConnection": null
+  }
+}

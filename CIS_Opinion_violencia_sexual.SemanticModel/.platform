@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "CIS_Opinion_violencia_sexual"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0c0f216e-5a7b-43cb-af30-f7c38c12535e"
+  }
+}
