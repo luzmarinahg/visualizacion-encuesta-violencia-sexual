@@ -69,8 +69,6 @@ Este proyecto se encuentra bajo la Licencia MIT. Consulta el archivo [LICENSE](L
 Para consultas o sugerencias, puedes contactar a las autoras a través de sus perfiles de GitHub o mediante correo electrónico:
 
 - Luz Marina Hernández García: lmhernandezgarcia2@gmail.com
-- Verónica Verdugo: veronica.verdugo@example.com
-
 ---
 
 > 💬 *“Los datos no son neutros: los analizo desde un compromiso ético, feminista y transformador.”*
